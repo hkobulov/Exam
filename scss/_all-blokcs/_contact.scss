@@ -1,0 +1,46 @@
+.contact .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 20px;
+}
+
+.contact__heading {
+    margin-right: 15px;
+    max-width: 350px;
+}
+
+.contact-line {
+    display: block;
+    width: 543px;
+    height: 1px;
+    background-color: $black-text;
+    overflow: hidden;
+}
+
+.contact__link {
+    width: 162px;
+    margin-left: 15px;
+    flex-shrink: 0;
+}
+
+@include media-max (470px) {
+    .contact .container {
+        padding-top: 115px;
+        padding-bottom: 80px;
+        flex-direction: column;
+    }
+
+    .contact__heading {
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .contact-line {
+        display: none;
+    }
+
+    .contact__link {
+        margin: 0;
+    }
+}

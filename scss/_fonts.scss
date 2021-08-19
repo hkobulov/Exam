@@ -1,0 +1,34 @@
+@font-face {
+     font-family: 'Public Sans';
+     font-style: normal;
+     font-weight: 400;
+     src: local(''),
+     url('../fonts/public-sans-v5-latin-regular.woff2') format('woff2'), 
+     url('../fonts/public-sans-v5-latin-regular.woff') format('woff');
+}
+
+@font-face {
+     font-family: 'Public Sans';
+     font-style: normal;
+     font-weight: 700;
+     src: local(''),
+     url('../fonts/public-sans-v5-latin-700.woff2') format('woff2'), 
+     url('../fonts/public-sans-v5-latin-700.woff') format('woff');
+}
+
+@font-face {
+     font-family: 'Ibarra Real Nova';
+     font-style: normal;
+     font-weight: 400;
+     src: local(''),
+     url('../fonts/ibarra-real-nova-v8-latin-regular.woff2') format('woff2'), 
+     url('../fonts/ibarra-real-nova-v8-latin-regular.woff') format('woff'); 
+}
+@font-face {
+     font-family: 'Ibarra Real Nova';
+     font-style: normal;
+     font-weight: 700;
+     src: local(''),
+     url('../fonts/ibarra-real-nova-v8-latin-700.woff2') format('woff2'),
+     url('../fonts/ibarra-real-nova-v8-latin-700.woff') format('woff'); 
+}
